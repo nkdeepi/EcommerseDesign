@@ -1,0 +1,18 @@
+.filtercontainer{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.productlisth3{
+    margin: 20px;
+}
+.filter{
+    margin: 20px;
+ 
+}
+.filtertext{
+    font-size: 20px;
+    font-weight: 60px;
+    margin: 5px;
+    
+}

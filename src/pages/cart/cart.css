@@ -1,0 +1,124 @@
+.cartcontainer{
+    /* display: flex; */
+
+}
+.cartwrapper{
+    padding: 40px;
+}
+.carth1{
+    text-align: center;
+    font-weight: 300;
+
+}
+.carttop{
+    display: flex;justify-content:space-between;align-items: center;
+    padding: 20px;
+
+}
+.cartbt1{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+.cartbt1:hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+.cartbt2{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(12, 12, 12);
+    color: antiquewhite;
+
+}
+.carttoptextspan{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px 10px;
+
+}
+.cartbottom{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cartinfo{
+    flex: 3;
+    /* background-color: rgb(146, 7, 7); */
+
+}
+.cartpricedetails{
+    flex: 1;
+    display: flex;flex-direction: column;
+    align-items: center;justify-content: center;
+}
+.cartsummary{
+/* background-color: rgb(105, 67, 67); */
+    flex:1;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+
+}
+.cartproduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(248, 9, 9); */
+}
+.cartproductdetails{
+    flex:2;
+    display: flex;
+    /* background-color: rgb(114, 91, 91); */
+}
+.cartproductcolor{
+    height: 20px;
+
+
+    width: 20px;
+    border-radius: 50%;
+    
+    background-color: rgb(8, 8, 8);
+    
+
+}
+.cartdetails{
+    padding: 20px;
+    display: flex;flex-direction: column;
+    justify-content:space-around;
+    margin-left: 40px;
+ 
+}
+.cartproductamountcontainer{
+    display: flex;align-items: center;
+}
+.cartproductamount{
+    font-size: 19px;
+    margin: 5px;
+}
+.cartproductprice{
+    font-size: 20px;
+    font-weight: 200;
+}
+.cartsummarytitle{
+    font-weight: 200;
+}
+.cartsummaryitem{
+    margin: 30px 0px;
+    display: flex;justify-content: space-between;
+}
+.cartbtn3{
+    width: 100%;
+    padding: 10px;
+    background-color:black;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: 600;
+  
+
+}
